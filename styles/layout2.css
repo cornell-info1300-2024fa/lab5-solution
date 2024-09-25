@@ -12,16 +12,42 @@ body {
 }
 
 .text-pad * {
-  /* Do not change these properties. They are correct. */
   padding: 10px;
   margin: 0px;
 }
 
-main {
-  /* Do not change these properties. They are correct. */
-  height: 100vh;
-
-  /* TODO: add additional CSS properties here. */
+header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
 }
 
-/* TODO: add additional CSS rules here. */
+h1 {
+  background-color: #F86015;
+}
+
+nav {
+  background-color: #512929;
+
+  flex-grow: 1;
+}
+
+main {
+  height: 100vh;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+article {
+  background-color: #FCC139;
+
+  flex-grow: 3;
+}
+
+aside {
+  background-color: #0F8B93;
+
+  flex-grow: 1;
+}
