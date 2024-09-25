@@ -1,0 +1,27 @@
+body {
+  font-family: sans-serif;
+  font-size: 120%;
+  color: white;
+  margin: 0;
+  font-weight: bold;
+  text-shadow:
+    -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black;
+}
+
+.text-pad * {
+  /* Do not change these properties. They are correct. */
+  padding: 10px;
+  margin: 0px;
+}
+
+main {
+  /* Do not change these properties. They are correct. */
+  height: 100vh;
+
+  /* TODO: add additional CSS properties here. */
+}
+
+/* TODO: add additional CSS rules here. */
